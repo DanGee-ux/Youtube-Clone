@@ -65,3 +65,20 @@ background-color: #C70039;
 #search{
     background-color: black;
 }
+@media screen and (max-width: 500px){
+    .container{
+       font-size: x-small;
+        max-width: 400px;
+}
+.container2{
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.video{
+    margin: -5px;
+}
+}
