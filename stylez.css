@@ -1,0 +1,67 @@
+*{
+    background-color: black;
+}
+#navbar{
+    box-sizing: border-box;
+    background-color: #C70039;
+    margin: -10px ;
+    padding: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    margin-bottom: auto;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #C70039;
+    max-width: 1000px;
+}
+.container :hover {
+  color: gold;
+}
+.child {
+color: white;
+font-weight: bold;
+font-family: roboto;
+background-color: #C70039;
+}
+.logo{
+    background-color: #C70039;
+}
+.companyName{
+    font-family: Cedarville Cursive;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    background-color: #C70039;
+}
+.background{
+    background-color: black;
+    color: white;
+    margin-top: -18px;
+    margin-left: -10px;
+    margin-right: -10px;
+    
+}
+.background p {
+    font-size: xx-large;
+    font-family: lobster;
+    text-align: center;
+}
+.container2{
+    position: relative;
+    overflow: hidden;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.videotitle{
+   margin-bottom: 0px;
+
+}
+.video{
+    margin: -10px;
+}
+#search{
+    background-color: black;
+}
